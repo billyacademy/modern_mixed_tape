@@ -1,0 +1,6 @@
+<h1> Welcome to Modern Mixed Tape </h1>
+
+
+<% @tapes.each do |tape| %>
+  Name of Mix: <%= link_to tape.title, tape_path(tape.id)  %><br>
+  <% end %>

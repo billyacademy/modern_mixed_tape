@@ -1,0 +1,32 @@
+== README
+
+
+User Stories
+
+As a user
+I want to create a mixed tape
+So that I can listen to favorite songs
+
+work in progress....
+
+
+  Acceptance Criteria
+- I must give the mixed tape a title
+- I can optionally give the mixed tape a description
+- I can add up to 12 songs to a single mixed tape
+
+
+
+Things you may want to cover:
+
+* ruby 2.0.0p451 (2014-02-24) [x86_64-darwin13.4.0]
+
+* PostgreSQL
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+
+
+<tt>rake doc:app</tt>.
