@@ -25,9 +25,11 @@ ActiveRecord::Schema.define(version: 20141225131028) do
   end
 
   create_table "songs_tapes", force: true do |t|
-    t.integer "song_id",      null: false
-    t.integer "tape_id",      null: false
-    t.integer "track_number", null: false
+    t.integer  "song_id",      null: false
+    t.integer  "tape_id",      null: false
+    t.integer  "track_number", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "tapes", force: true do |t|
